@@ -10,5 +10,6 @@ def login():
     pyautogui.write(current_account)
     pyautogui.click(1875, 800)
     time.sleep(1)
-while True:
-    login()
+if __name__ == '__main__':
+    while True:
+        login()
