@@ -1,7 +1,7 @@
 import pyautogui
 import time
 import random
-input('Please open Mullvad undocked at the bottom right corner. If you need to stop the program, slam your mouse to any of the four corners. Press enter to continue.')
+input('Please open Mullvad undocked at the bottom right corner. If you need to stop the program, slam your mouse to any of the four corners. Press enter to continue. \n')
 time.sleep(5)
 
 def login():
